@@ -28,6 +28,7 @@ h1 {
 .accordian_item {
   border: 1px solid rgb(5, 5, 5);
   padding: 15px;
+  margin: 15px;
 }
 .accordian_title {
   display: flex;
@@ -42,4 +43,7 @@ h1 {
 
 .accordian_title.active + .accordian_content {
   display: block;
+}
+.heading {
+  text-align: center;
 }

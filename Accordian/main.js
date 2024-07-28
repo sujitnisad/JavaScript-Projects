@@ -33,8 +33,8 @@ function display() {
     .map(
       (index) => `<div class="accordian_item">
     <div class="accordian_title ">
-    <h3>${index.question} <i class="fa-solid fa-arrow-down"></i> </h3>
-
+    <h3>${index.question}</h3>
+    <i class="fa-solid fa-arrow-down"></i>
     </div>
     <p class="accordian_content">${index.answer}</p>
     </div>`
